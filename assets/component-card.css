@@ -5,6 +5,11 @@
   text-decoration: none;
 }
 
+.product-grid li:first-child {
+  border:5px solid red;
+}
+
+
 .card {
   text-decoration: none;
   text-align: var(--text-alignment);
