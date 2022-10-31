@@ -158,7 +158,7 @@
         "product_extra_info": {
           "type": "text",
           "settings": {
-            "text": "<p>{{ extra product information product.metafields.custom.product_extra_info | metafield_tag }}<\/p>"
+            "text": "<p>{{ product.metafields.custom.product_extra_info | metafield_tag }}<\/p>"
           }
         }
       },
