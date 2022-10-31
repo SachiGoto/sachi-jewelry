@@ -95,12 +95,7 @@
     const clearCartBtn = document.querySelector("#clear-cart");
     clearCartBtn.addEventListener("click", clearCart)
     function clearCart() {
-      fetch(window.Shopify.routes.root + 'cart/clear.js', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json'
-        }
-      }).then(response => {
+      fetch(window.Shopify.routes.root + 'cart/clear.js', {method: 'POST'}).then(response => {
         window.location.href = "/cart"
       }).catch((error) => {
         console.error('Error:', error);
