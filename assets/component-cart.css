@@ -3,6 +3,12 @@
   display: block;
 }
 
+#clear-cart{
+  color:black;
+  background-color:white;
+  border:1px solid black;
+}
+
 .cart__empty-text,
 .is-empty .cart__contents,
 cart-items.is-empty .title-wrapper-with-link,
